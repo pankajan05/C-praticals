@@ -1,0 +1,30 @@
+/*My fourth programme
+This programme use to know backslash characters */
+
+//preprocessor way to include header file
+#include<stdio.h>
+#include<conio.h>
+
+//This is main function
+void main()
+//start the main function
+{
+
+
+//use to clear the before the printing in screen
+clrscr();
+
+//command to print the screen
+printf("This is my first programme\n");//indicate the command finish
+
+printf("This is in second line\n");
+printf("Before the tab space\t");
+printf("After the tab space.\n");
+
+printf("This is my\b first programme\n");
+printf("This is my\v first programme\n");
+printf("This is \"my first \'C\'  programme\"\n");
+//use to hold thwe screen
+getch();
+//end of the main function
+}
